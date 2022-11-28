@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Fast Colors-->
+    <color name="color_transparent">@android:color/transparent</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffff</color>
+
+    <!--App Colors-->
+    <color name="color_primary">#004b6b</color>
+    <color name="color_primary_variant">#417799</color>
+    <color name="color_primary_dark">#002340</color>
+    <color name="color_primary_darker">#455A64</color>
+    <color name="color_secondary">#AFB42B</color>
+    <color name="color_secondary_variant">#CDDC39</color>
+    <color name="color_accent">#8BC34A</color>
+    <color name="color_accent_secondary">#8BC34A</color>
+    <color name="color_background">#f5f0ef</color>
+    <color name="color_surface">#ffffff</color>
+    <color name="color_control_normal">#F1F1F1</color>
+    <color name="color_shine">#f5f0ef</color>
+
+    <!--On Colors-->
+    <color name="color_on_primary">#ffffff</color>
+    <color name="color_on_secondary">#ffffff</color>
+    <color name="color_on_surface">#000000</color>
+    <color name="color_on_background">#000000</color>
+    <color name="color_on_primary_surface">#000000</color>
+    <color name="color_on_error">#ffffff</color>
+
+    <!--Text Colors-->
+    <color name="color_text_normal">#000000</color>
+    <color name="color_text_secondary">#565657</color>
+    <color name="color_text_hint">#b2b2b2</color>
+    <color name="color_text_accent_darker">#3C6A05</color>
+    <color name="color_text_empty_placeholder">#ccb3ac</color>
+
+    <!--Alert Colors-->
+    <color name="color_warning">#EDB83F</color>
+    <color name="color_error">#CD474C</color>
+    <color name="color_info">#6293E5</color>
+    <color name="color_ask">#5055B1</color>
+    <color name="color_success">#009d63</color>
+
+    <!--Text Input Colors-->
+    <color name="color_disabled">#F2F2F2</color>
+
+
+    <color name="main_fragment">#004b6b</color>
+    <color name="main_fragment_variant">#417799</color>
+    <color name="main_fragment_dark">#002340</color>
+    <color name="main_fragment_darker">#001527</color>
+</resources>

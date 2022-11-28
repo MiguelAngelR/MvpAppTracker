@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">cancel</string>
+    <string name="acept">Aceptar</string>
+    <string name="error">Error</string>
+    <string name="sync_again">Error al sincronizar los datos, por favor intentalo nuevamente</string>
+</resources>

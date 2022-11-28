@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Padding & Margin-->
+    <dimen name="dim_text">15dp</dimen>
+    <dimen name="dim_padding_tiny">2dp</dimen>
+    <dimen name="dim_padding_very_small">4dp</dimen>
+    <dimen name="dim_padding_small">8dp</dimen>
+    <dimen name="dim_padding">16dp</dimen>
+    <dimen name="dim_padding_medium_small">12dp</dimen>
+    <dimen name="dim_padding_medium">24dp</dimen>
+    <dimen name="dim_padding_big">32dp</dimen>
+    <dimen name="dim_padding_really_big">42dp</dimen>
+
+    <dimen name="dim_margin_tiny">2dp</dimen>
+    <dimen name="dim_margin_very_small">4dp</dimen>
+    <dimen name="dim_margin_small">8dp</dimen>
+    <dimen name="dim_margin">16dp</dimen>
+    <dimen name="dim_margin_medium_small">12dp</dimen>
+    <dimen name="dim_margin_medium">24dp</dimen>
+    <dimen name="dim_margin_big">32dp</dimen>
+    <dimen name="dim_margin_really_big">42dp</dimen>
+
+    <!--Texts-->
+    <dimen name="dim_text_tiny">8sp</dimen>
+    <dimen name="dim_text_very_small">10sp</dimen>
+    <dimen name="dim_text_small">12sp</dimen>
+    <dimen name="dim_text_default">14sp</dimen>
+    <dimen name="dim_text_accent">16sp</dimen>
+    <dimen name="dim_text_title">18sp</dimen>
+    <dimen name="dim_text_title_big">24sp</dimen>
+    <dimen name="dim_text_title_really_big">40sp</dimen>
+
+    <!-- Cards -->
+    <dimen name="dim_card_elevation">0dp</dimen>
+    <dimen name="dim_card_elevation_big">0dp</dimen>
+    <dimen name="dim_card_elevation_medium">0dp</dimen>
+    <dimen name="dim_card_corner_radius">16dp</dimen>
+    <dimen name="dim_card_corner_radius_small">8dp</dimen>
+
+    <!--Others-->
+    <dimen name="dim_corner_radius_small">8dp</dimen>
+    <dimen name="dim_tabs_elevation">0dp</dimen>
+    <dimen name="dim_search_toolbar_height">64dp</dimen>
+    <dimen name="dim_search_icon_size">24dp</dimen>
+    <dimen name="dim_search_info_icon_size">48dp</dimen>
+    <dimen name="dim_chip_height">32dp</dimen>
+    <dimen name="dim_day_touch_target_size">40dp</dimen>
+    <dimen name="dim_toolbar_decorate_icon_size">42dp</dimen>
+    <dimen name="dim_dropdown_height_big">46dp</dimen>
+    <dimen name="dim_icon_size_default">24dp</dimen>
+
+</resources>

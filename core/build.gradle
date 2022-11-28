@@ -54,27 +54,27 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 
     //Navigation
-    implementation "androidx.navigation:navigation-fragment-ktx:$rootProject.navigation_version"
-    implementation "androidx.navigation:navigation-ui-ktx:$rootProject.navigation_version"
+    api "androidx.navigation:navigation-fragment-ktx:$rootProject.navigation_version"
+    api "androidx.navigation:navigation-ui-ktx:$rootProject.navigation_version"
 
     //Room components
-    implementation "androidx.room:room-runtime:$rootProject.room_version"
+    api "androidx.room:room-runtime:$rootProject.room_version"
     kapt "androidx.room:room-compiler:$rootProject.room_version"
 
     //Extensions and coroutines for room
-    implementation "androidx.room:room-ktx:$rootProject.room_version"
+    api "androidx.room:room-ktx:$rootProject.room_version"
 
     // Retrofit
-    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofit_version"
-    implementation "com.squareup.retrofit2:converter-gson:$rootProject.retrofit_version"
-    implementation "com.squareup.retrofit2:adapter-rxjava2:$rootProject.retrofit_version"
+    api "com.squareup.retrofit2:retrofit:$rootProject.retrofit_version"
+    api "com.squareup.retrofit2:converter-gson:$rootProject.retrofit_version"
+    api "com.squareup.retrofit2:adapter-rxjava2:$rootProject.retrofit_version"
 
     //OkHTTP client
-    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
-    implementation "com.squareup.okhttp3:logging-interceptor:4.7.2"
+    api 'com.squareup.okhttp3:okhttp:4.9.1'
+    api "com.squareup.okhttp3:logging-interceptor:4.7.2"
 
     //Hilt
-    implementation "com.google.dagger:hilt-android:$rootProject.hilt_version"
+    api "com.google.dagger:hilt-android:$rootProject.hilt_version"
     kapt "com.google.dagger:hilt-android-compiler:$rootProject.hilt_version"
 
     //Network
@@ -83,32 +83,32 @@ dependencies {
     api 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.9'
 
     //Image Loadingretrofit_version
-    implementation "io.coil-kt:coil:1.4.0"
+    api "io.coil-kt:coil:$rootProject.coil_version"
 
     //Gson
-    implementation "com.google.code.gson:gson:$rootProject.gson_version"
+    api "com.google.code.gson:gson:$rootProject.gson_version"
 
     //DataStore
-    implementation "androidx.datastore:datastore-preferences:1.0.0"
+    api "androidx.datastore:datastore-preferences:1.0.0"
 
     // Support MultiDex
-    implementation 'androidx.multidex:multidex:2.0.1'
+    api 'androidx.multidex:multidex:2.0.1'
 
     // Rx Java
-    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
-    implementation 'io.reactivex.rxjava2:rxjava:2.2.15'
-    implementation "androidx.room:room-rxjava2:2.4.3"
+    api 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    api 'io.reactivex.rxjava2:rxjava:2.2.15'
+    api "androidx.room:room-rxjava2:2.4.3"
 
-    implementation 'me.relex:circleindicator:2.1.6'
+    api 'me.relex:circleindicator:2.1.6'
 
     // Paging
-    implementation "androidx.paging:paging-runtime:3.1.1"
-    implementation 'androidx.paging:paging-rxjava2-ktx:3.1.1'
+    api "androidx.paging:paging-runtime:3.1.1"
+    api 'androidx.paging:paging-rxjava2-ktx:3.1.1'
 
     // Lifecycle
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$rootProject.lifecycle_version"
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$rootProject.lifecycle_version"
-    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$rootProject.lifecycle_version"
-    implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:$rootProject.lifecycle_version"
-    implementation "androidx.lifecycle:lifecycle-common-java8:$rootProject.lifecycle_version"
+    api "androidx.lifecycle:lifecycle-viewmodel-ktx:$rootProject.lifecycle_version"
+    api "androidx.lifecycle:lifecycle-livedata-ktx:$rootProject.lifecycle_version"
+    api "androidx.lifecycle:lifecycle-runtime-ktx:$rootProject.lifecycle_version"
+    api "androidx.lifecycle:lifecycle-viewmodel-savedstate:$rootProject.lifecycle_version"
+    api "androidx.lifecycle:lifecycle-common-java8:$rootProject.lifecycle_version"
 }
